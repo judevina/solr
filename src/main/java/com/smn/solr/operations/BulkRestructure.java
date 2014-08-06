@@ -59,6 +59,8 @@ public class BulkRestructure {
 			String nonHtml = Jsoup.clean(microResume, Whitelist.none());
 			System.out.println(nonHtml);
 			String[] elementsInMicroresume = nonHtml.split(",");
+			
+			
 			System.out.println(Arrays.asList(elementsInMicroresume));
 
 			System.out.println("-----------------");
