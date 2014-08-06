@@ -1,4 +1,5 @@
 solr
 ====
 
-solr operations using java
+solr operations using java.
+Iterate entire documents from solr repository
